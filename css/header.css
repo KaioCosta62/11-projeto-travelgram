@@ -1,0 +1,25 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    line-height: 0;
+}
+
+#header nav ul{
+   list-style: none;
+   display: flex;
+   align-items: center;
+   gap: 16px;
+}
+
+
+#header nav ul li .search{
+    width: 24px;
+}
+
+#header nav ul li img{
+    width: 40px;
+    object-fit: cover;
+}
