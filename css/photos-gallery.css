@@ -1,0 +1,15 @@
+.photos-gallery{
+    padding: 24px 0;
+}
+
+.photos-gallery .container{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.photos-gallery .container img{
+    width: 286px;
+    height: 286px;
+}
