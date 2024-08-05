@@ -1,0 +1,13 @@
+.footer{
+    padding: 25px 0;
+}
+
+.footer .container{
+    display: flex;
+    gap: 24px;
+    font: var(--text-md);
+}
+
+.footer .container span:nth-child(1){
+    margin-right: auto;
+}
