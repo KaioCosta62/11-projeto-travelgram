@@ -20,6 +20,10 @@
     --text-sm: 12px/170% var(--font-family);
 }
 
+ul{
+    list-style: none;
+}
+
 body{
     font: var(--text);
     color: var(--text-color-secondary);

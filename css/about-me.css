@@ -1,0 +1,50 @@
+.about-me{
+    padding: 32px 0;
+}
+
+.about-me .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-me .about-information{
+    display: flex;
+    gap: 32px;
+    max-width: 592px;
+}
+
+.about-me .about-information h1{
+    font:  var(--text-lg);
+    color: var(--text-color-primary);
+    margin-bottom: 8px;
+}
+
+.about-me .about-information .information{
+    max-width: 384px;
+}
+
+.about-me .about-information p{
+    font: var(--text-md);
+}
+
+.about-me .travels {
+    width: 280px;
+}
+
+
+.about-me .travels{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.about-me .travels li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.about-me .travels li span{
+    font: var(--text-md);
+}
